@@ -63,8 +63,7 @@ const Banner = () => {
                 <h1 className="mt-3 fw-bold">{slide.title}</h1>
                 <div>{slide.text}</div>
 
-                {/* <ServiceCards /> */}
-                <div className="d-flex flex-wrap justify-content-start align-items-center gap-2 gap-md-4">
+                {/* <div className="d-flex flex-wrap justify-content-start align-items-center gap-2 gap-md-4">
                   <div>
                     <a
                       href="#"
@@ -82,6 +81,65 @@ const Banner = () => {
                       <i>instant quote</i>
                       <span className="text-uppercase">instant quote</span>
                     </a>
+                  </div>
+                </div> */}
+
+                <div className="row package-container">
+                  <div
+                    className="col-md-6 col-lg-4 wow fadeInUp"
+                    data-wow-delay="00ms"
+                  >
+                    <div className="package-wrapper">
+                      {/* <div className="package__cate package-card-new">
+                          <span>Basic Plan</span>
+                        </div> */}
+                      <div className="package-card">
+                        <div className="package-card__price package-card__price-new">
+                          {/* $60.00
+                            <div className="package-card__period">
+                              Per month
+                            </div> */}
+                          Live <br /> Interpreters
+                        </div>
+                        <ul className="package-card__list">
+                          <li className="p-2">
+                            Available by phone, video, or in person
+                          </li>
+                        </ul>
+                        <a href="contact.html" className="procounsel-btn">
+                          <i>Instant Quote</i>
+                          <span>Instant Quote</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="col-md-6 col-lg-4 wow fadeInUp mt-4 mt-md-0"
+                    data-wow-delay="00ms"
+                  >
+                    <div className="package-wrapper">
+                      {/* <div className="package__cate">
+                          <span>Standard</span>
+                        </div> */}
+                      <div className="package-card">
+                        <div className="package-card__price package-card__price-new">
+                          {/* $60.00
+                            <div className="package-card__period">
+                              Per month
+                            </div> */}
+                          Document <br /> Translation
+                        </div>
+                        <ul className="package-card__list">
+                          <li className="p-1">
+                            Translate documents, books, or websites
+                          </li>
+                        </ul>
+                        <a href="contact.html" className="procounsel-btn">
+                          <i>Instant Quote</i>
+                          <span>Instant Quote</span>
+                        </a>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>

@@ -65,7 +65,8 @@ export default function Home() {
             <div className="row gutter-y-30">
               <div className="col-md-4 col-12">
                 <div className="about-four__img bw-img-anim-left">
-                  <img src="assets/images/resources/about-3-1.jpg" alt="" />
+                  <img src="/assets/capital-img/section4.png" alt="" />
+                  {/* <img src="assets/images/resources/about-3-1.jpg" alt="" /> */}
                 </div>
               </div>
               <div className="col-md-8 col-12">
@@ -187,7 +188,8 @@ export default function Home() {
 
               <div className="col-md-4 col-12">
                 <div className="about-four__img bw-img-anim-left">
-                  <img src="assets/images/resources/about-3-1.jpg" alt="" />
+                  <img src="/assets/capital-img/section1.png" alt="" />
+                  {/* <img src="assets/images/resources/about-3-1.jpg" alt="" /> */}
                 </div>
               </div>
             </div>
@@ -200,7 +202,8 @@ export default function Home() {
             <div className="row gutter-y-30">
               <div className="col-md-4 col-12">
                 <div className="about-four__img bw-img-anim-left">
-                  <img src="assets/images/resources/about-3-1.jpg" alt="" />
+                  {/* <img src="assets/images/resources/about-3-1.jpg" alt="" /> */}
+                  <img src="/assets/capital-img/section2.png" alt="" />
                 </div>
               </div>
               <div className="col-md-8 col-12">
@@ -251,6 +254,8 @@ export default function Home() {
                       <i> Discover More</i>
                       <span> Discover More</span>
                     </a>
+                    {/* <img src="/assets/capital-img/section2.png" alt="" /> */}
+
                     <img
                       src="assets/images/resources/about-2-signature.jpg"
                       alt="signature"
@@ -319,7 +324,9 @@ export default function Home() {
 
               <div className="col-md-4 col-12">
                 <div className="about-four__img bw-img-anim-left">
-                  <img src="assets/images/resources/about-3-1.jpg" alt="" />
+                  <img src="/assets/capital-img/section3.png" alt="" />
+
+                  {/* <img src="assets/images/resources/about-3-1.jpg" alt="" /> */}
                 </div>
               </div>
             </div>

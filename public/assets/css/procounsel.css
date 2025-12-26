@@ -12714,6 +12714,10 @@ body.megamenu-popup-active .mobile-nav__content {
 /*--------------------------------------------------------------
 # Package
 --------------------------------------------------------------*/
+.package-container{
+ height: 280px;
+  /* height: 100% !important; */
+}
 .package-card {
   background-color: var(--procounsel-gray2, #ededed);
   position: relative;
@@ -12723,6 +12727,7 @@ body.megamenu-popup-active .mobile-nav__content {
   padding-top: 12px;
   transition: all 500ms ease;
 }
+
 .package-card__bg {
   position: absolute;
   left: 0;
@@ -12761,13 +12766,22 @@ body.megamenu-popup-active .mobile-nav__content {
   z-index: -1;
   transition: all 500ms ease;
 }
+.package-card__price-new{
+  font-size: 24px;
+height: 120px;
+width: 220px;
+margin-left: auto;
+margin-right: auto;
+}
 .package-card:hover {
   background-color: var(--procounsel-base, #c7954a);
 }
+
 .package-card:hover .package-card__price {
   background-color: rgba(var(--procounsel-white-rgb, 255, 255, 255), 16%);
   color: var(--procounsel-white, #fff);
 }
+
 .package-card__title {
   margin: 0;
   text-transform: capitalize;
