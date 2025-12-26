@@ -16,7 +16,7 @@ const Banner = () => {
       ),
       text: (
         <>
-          <p style={{ marginBottom: "20px" }} className="custom-max-width2">
+          <p style={{ marginBottom: "20px",fontSize:"24px" }} className="custom-max-width2">
             We provide services around the world in over 200 languages
           </p>
           {/* <p style={{ marginBottom: "20px" }} className="custom-max-width2">
