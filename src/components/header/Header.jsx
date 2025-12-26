@@ -86,7 +86,7 @@ const Header = () => {
                 <Image
                   src={
                     scrolled
-                        ? "/assets/capital-img/capital-logo.png"
+                        ?  "/assets/capital-img/logo2.png" 
                         : "/assets/capital-img/capital-logo.png" 
                   }
                   alt="Procounsel"
@@ -206,8 +206,8 @@ const Header = () => {
                   href="/contact-us/#contact-service"
                   className="procounsel-btn d-flex flex-column flex-sm-row text-center text-sm-start"
                 >
-                  <i>REQUEST AN EXPERT</i>
-                  <span className="">REQUEST AN EXPERT</span>
+                  <i>get a quote now</i>
+                  <span className="">get a quote now</span>
                 </a>
               </div>
               <div className="main-header__info d-none d-lg-flex">
@@ -220,13 +220,13 @@ const Header = () => {
                 <div>
                   {/* <span className="main-header__info__text" style={{ color: scrolled ? "#000000" : "#ffffff" }}>Call anytime</span> */}
                   <a
-                    href="tel:+8772443703"
+                    href="tel:+612-817-7744"
                     style={{
                       color: scrolled ? "#000000" : "#ffffff",
                       whiteSpace: "nowrap",
                     }}
                   >
-                    (877) 244-3703
+                    612-817-7744
                   </a>
                 </div>
               </div>
@@ -264,7 +264,7 @@ const Header = () => {
               </li>
               <li>
                 <i className="fa fa-phone-alt"></i>
-                <a href="tel:666-888-0000">666 888 0000</a>
+                <a href="tel:612-817-7744">612-817-7744</a>
               </li>
             </ul>
 

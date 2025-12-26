@@ -11,21 +11,22 @@ const AboutLinguists = () => {
                             data-wow-delay="00ms"
                         >
                             <img
-                                src="assets/images/resources/about-1-1.png"
+                                src="/assets/capital-img/language.png"
                                 alt="procounsel"
                             />
-                            <img
+                            {/* <img
                                 src="assets/images/resources/signature.png"
                                 alt=""
                                 className="about-one__image__signature"
-                            />
+                            /> */}
                             <div className="about-one__image__left bw-img-anim-right">
                                 <img
-                                    src="assets/images/resources/about-1-2.png"
+                                    src="/assets/capital-img/language2.png"
+                                    // src="assets/images/resources/about-1-2.png"
                                     alt="procounsel"
                                 />
                             </div>
-                            <div className="about-one__image__info">
+                            <div className="about-one__image__info" style={{top:0}}>
                                 <div className="about-one__image__info__icon">
                                     <i className="icon-phone-1"></i>
                                 </div>
@@ -41,7 +42,7 @@ const AboutLinguists = () => {
                             <div className="about-one__content">
                                 <div className="sec-title text-left">
                                     <div className="sec-title__tagline bw-split-in-up-fast d-inline-flex align-items-center gap-2">
-                                        Capital Linguists:
+                                        Capital Linguists
                                     </div>
 
                                     <h3 className="sec-title__title bw-split-in-up">

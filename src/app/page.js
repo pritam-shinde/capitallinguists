@@ -2,6 +2,7 @@
 import AboutLinguists from "@/sections/AboutLinguists";
 import Banner from "@/sections/Banner";
 import LanguageProvider from "@/sections/LanguageProvider";
+import LanguageSupport from "@/sections/LanguageSupport";
 import Team from "@/sections/Team";
 import Testimonials from "@/sections/Testimonials";
 import Image from "next/image";
@@ -44,7 +45,6 @@ export default function Home() {
     })();
   }, []);
 
-  
   return (
     <>
       <div className="custom-cursor__cursor"></div>
@@ -63,12 +63,12 @@ export default function Home() {
         <section className="about-four about-four-about" id="about">
           <div className="container">
             <div className="row gutter-y-30">
-              <div className="col-xl-6 col-md-12">
+              <div className="col-md-4 col-12">
                 <div className="about-four__img bw-img-anim-left">
                   <img src="assets/images/resources/about-3-1.jpg" alt="" />
                 </div>
               </div>
-              <div className="col-xl-6 col-lg-8 col-md-12">
+              <div className="col-md-8 col-12">
                 <div className="about-four__content">
                   <div className="sec-title text-left">
                     <div className="sec-title__tagline bw-split-in-up-fast d-inline-flex align-items-center gap-2">
@@ -115,7 +115,7 @@ export default function Home() {
         <section className="about-four about-four-about" id="about">
           <div className="container">
             <div className="row gutter-y-30">
-              <div className="col-xl-6 col-lg-8 col-md-12">
+              <div className="col-md-8 col-12">
                 <div className="about-four__content">
                   <div className="sec-title text-left">
                     <div className="sec-title__tagline bw-split-in-up-fast d-inline-flex align-items-center gap-2">
@@ -155,7 +155,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="col-xl-6 col-md-12">
+              <div className="col-md-4 col-12">
                 <div className="about-four__img bw-img-anim-left">
                   <img src="assets/images/resources/about-3-1.jpg" alt="" />
                 </div>
@@ -168,12 +168,12 @@ export default function Home() {
         <section className="about-four about-four-about" id="about">
           <div className="container">
             <div className="row gutter-y-30">
-              <div className="col-xl-6 col-md-12">
+              <div className="col-md-4 col-12">
                 <div className="about-four__img bw-img-anim-left">
                   <img src="assets/images/resources/about-3-1.jpg" alt="" />
                 </div>
               </div>
-              <div className="col-xl-6 col-lg-8 col-md-12">
+              <div className="col-md-8 col-12">
                 <div className="about-four__content">
                   <div className="sec-title text-left">
                     <div className="sec-title__tagline bw-split-in-up-fast d-inline-flex align-items-center gap-2">
@@ -220,7 +220,7 @@ export default function Home() {
         <section className="about-four about-four-about" id="about">
           <div className="container">
             <div className="row gutter-y-30">
-              <div className="col-xl-6 col-lg-8 col-md-12">
+              <div className="col-md-8 col-12">
                 <div className="about-four__content">
                   <div className="sec-title text-left">
                     <div className="sec-title__tagline bw-split-in-up-fast d-inline-flex align-items-center gap-2">
@@ -228,8 +228,7 @@ export default function Home() {
                     </div>
 
                     <h3 className="sec-title__title bw-split-in-up">
-                      Experience the <br /> Best in{" "}
-                      <span>Legal Excellence</span>
+                      Experience the <br /> Best in <span>Legal Excellence</span>
                     </h3>
                   </div>
                   <p className="about-four__text">
@@ -260,7 +259,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="col-xl-6 col-md-12">
+              <div className="col-md-4 col-12">
                 <div className="about-four__img bw-img-anim-left">
                   <img src="assets/images/resources/about-3-1.jpg" alt="" />
                 </div>
@@ -288,32 +287,34 @@ export default function Home() {
               >
                 <div
                   className="service-details__item"
-                  style={{ height: "100%" }}
+                  style={{ height: "100%", alignItems: "flex-start" }}
                 >
                   <div className="service-details__item__icon">
                     <Image
                       width={31}
                       height={31}
-                      src="/assets/distributor-img/excellence.png"
+                      src="/assets/capital-img/excellence.png"
                       alt="response"
                     />
                     <span className="service-details__item__icon__zoom">
                       <Image
                         width={31}
                         height={31}
-                        src="/assets/distributor-img/excellence.png"
+                        src="/assets/capital-img/excellence.png"
                         alt="response"
                       />
                     </span>
                   </div>
                   <div className="service-details__item__content">
-                    <h4 className="service-details__item__title text-white">
-                      Excellence
+                    <h4 className="service-details__item__title fw-bold mb-2 text-white">
+                      Effective Project Management
                     </h4>
 
                     <p className="service-details__item__text text-white">
-                      We strive for excellence in every aspect of our
-                      operations, from logistics to customer service.
+                      Each project is handled by a dedicated project manager who
+                      acts as the key point of contact between you and our
+                      linguistic/production team, ensuring the successful
+                      delivery of translation and interpretation services.
                     </p>
                   </div>
                 </div>
@@ -324,32 +325,36 @@ export default function Home() {
               >
                 <div
                   className="service-details__item"
-                  style={{ height: "100%" }}
+                  style={{ height: "100%", alignItems: "flex-start" }}
                 >
                   <div className="service-details__item__icon">
                     <Image
                       width={31}
                       height={31}
-                      src="/assets/distributor-img/market-penetration.png"
+                      src="/assets/capital-img/market-penetration.png"
                       alt="response"
                     />
                     <span className="service-details__item__icon__zoom">
                       <Image
                         width={31}
                         height={31}
-                        src="/assets/distributor-img/market-penetration.png"
+                        src="/assets/capital-img/market-penetration.png"
                         alt="response"
                       />
                     </span>
                   </div>
                   <div className="service-details__item__content">
-                    <h4 className="service-details__item__title text-white">
-                      Integrity
+                    <h4 className="service-details__item__title fw-bold mb-2 text-white">
+                      Quality Assurance Checks
                     </h4>
 
                     <p className="service-details__item__text text-white">
-                      We conduct business with the highest ethical standards,
-                      building trust with every interaction.
+                      Ensuring professional-grade quality is at the heart of our
+                      process, with extensive checks on translated content. Our
+                      elite TEP (translation, editing, and proofreading)
+                      services involve thorough reviews by multiple linguists to
+                      ensure consistency and excellence in the final
+                      deliverable.
                     </p>
                   </div>
                 </div>
@@ -360,32 +365,35 @@ export default function Home() {
               >
                 <div
                   className="service-details__item"
-                  style={{ height: "100%" }}
+                  style={{ height: "100%", alignItems: "flex-start" }}
                 >
                   <div className="service-details__item__icon">
                     <Image
                       width={31}
                       height={31}
-                      src="/assets/distributor-img/partnership.png"
+                      src="/assets/capital-img/partnership.png"
                       alt="response"
                     />
                     <span className="service-details__item__icon__zoom">
                       <Image
                         width={31}
                         height={31}
-                        src="/assets/distributor-img/partnership.png"
+                        src="/assets/capital-img/partnership.png"
                         alt="response"
                       />
                     </span>
                   </div>
                   <div className="service-details__item__content">
-                    <h4 className="service-details__item__title text-white">
-                      Partnership
+                    <h4 className="service-details__item__title fw-bold mb-2 text-white">
+                      Top Caliber
                     </h4>
 
                     <p className="service-details__item__text text-white">
-                      We believe in building long-term partnerships, treating
-                      every brand's success as our own.
+                      Our team of experienced translators and interpreters
+                      provides high-quality services, backed by impressive
+                      credentials such as degrees in translation and
+                      interpreting, professional certifications, years of
+                      experience, and expertise in diverse subjects.
                     </p>
                   </div>
                 </div>
@@ -396,32 +404,34 @@ export default function Home() {
               >
                 <div
                   className="service-details__item"
-                  style={{ height: "100%" }}
+                  style={{ height: "100%", alignItems: "flex-start" }}
                 >
                   <div className="service-details__item__icon">
                     <Image
                       width={31}
                       height={31}
-                      src="/assets/distributor-img/growth-focus.png"
+                      src="/assets/capital-img/growth-focus.png"
                       alt="response"
                     />
                     <span className="service-details__item__icon__zoom">
                       <Image
                         width={31}
                         height={31}
-                        src="/assets/distributor-img/growth-focus.png"
+                        src="/assets/capital-img/growth-focus.png"
                         alt="response"
                       />
                     </span>
                   </div>
                   <div className="service-details__item__content">
-                    <h4 className="service-details__item__title text-white">
-                      Sustainability
+                    <h4 className="service-details__item__title fw-bold mb-2 text-white">
+                      Full Privacy Maintained
                     </h4>
 
                     <p className="service-details__item__text text-white">
-                      We are committed to sustainable practices that benefit our
-                      community and environment.
+                      Confidentiality is at the heart of what we do. To protect
+                      your sensitive information, our team follows strict
+                      confidentiality procedures, a commitment that is upheld by
+                      our ISO 9001 certification.
                     </p>
                   </div>
                 </div>
@@ -433,7 +443,7 @@ export default function Home() {
         {/* team */}
         <Team />
 
-        {/*  */}
+        {/* Why Choose Us  */}
         <section className="why-choose-four">
           <div
             className="why-choose-four__bg jarallax"
@@ -451,8 +461,8 @@ export default function Home() {
                   <div className="why-choose-four__content">
                     <div className="sec-title text-left">
                       <h3 className="sec-title__title bw-split-in-up">
-                        What We
-                        <span> Offer</span>
+                        Why Choose
+                        <span>  Us</span>
                       </h3>
                       <h4 className="tailored-subtitle font-Merriweather text-white mt-2">
                         End-to-end distribution services tailored to your
@@ -472,13 +482,11 @@ export default function Home() {
                             />
                           </div>
                           <h3 className="why-choose-four__item__title">
-                            Full-Scale <br /> Distribution.
+                            24×7 Service  <br /> Availability.
                           </h3>
                         </div>
                         <p className="why-choose-four__item__text text-white">
-                          Complete distribution management from warehouse to
-                          retail shelf, ensuring your products reach to your
-                          store.
+                          A unique aspect of the translation and interpreting industry is that needs often sprout up when you least expect them – late on Friday evening, over the weekend, or at the last minute.
                         </p>
                       </div>
                       <div className="why-choose-four__item">
@@ -487,7 +495,7 @@ export default function Home() {
                             <i className="icon-collaboration"></i>
                           </div>
                           <h3 className="why-choose-four__item__title">
-                            Logistics & <br /> Supply Chain.
+                            Reasonable, Transparent  <br /> Pricing
                           </h3>
                         </div>
                         <p className="why-choose-four__item__text text-white">
@@ -509,12 +517,11 @@ export default function Home() {
                             />
                           </div>
                           <h3 className="why-choose-four__item__title">
-                            Retail <br /> Coverage.
+                            Industry  <br /> Expertise.
                           </h3>
                         </div>
                         <p className="why-choose-four__item__text text-white">
-                          Deep penetration across modern trade, general trade,
-                          and emerging retail formats.
+                          Our team comprises skilled, certified professionals who specialize in providing high-quality translation and interpretation services across various industries.
                         </p>
                       </div>
                       <div className="why-choose-four__item">
@@ -528,12 +535,11 @@ export default function Home() {
                             />
                           </div>
                           <h3 className="why-choose-four__item__title">
-                            E-commerce <br /> Distribution
+                            Lorem, ipsum. <br /> lorem
                           </h3>
                         </div>
                         <p className="why-choose-four__item__text text-white">
-                          Seamless integration with major online marketplaces
-                          and D2C fulfillment solutions.
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum mollitia molestias laborum, tempore ab voluptate.
                         </p>
                       </div>
                     </div>
@@ -569,13 +575,15 @@ export default function Home() {
         {/* testimonials */}
         <Testimonials />
 
+        {/* countries section */}
+        <LanguageSupport />
+        
         {/* Form */}
         <section className="contact-one">
           <div
             className="contact-one__bg"
             style={{
-              backgroundImage:
-                "url(assets/images/backgrounds/contact-1-bg.jpg)",
+              backgroundImage: "url(assets/images/backgrounds/contact-1-bg.jpg)",
             }}
           ></div>
           <div className="contact-one__overlay"></div>
@@ -597,8 +605,7 @@ export default function Home() {
                     <div
                       className="contact-one__content__bg bw-img-anim-left"
                       style={{
-                        backgroundImage:
-                          "url(assets/images/resources/contact-1-1.jpg)",
+                        backgroundImage: "url( /assets/capital-img/contact-section.png)",
                       }}
                     ></div>
                     <ul className="list-unstyled contact-one__info">

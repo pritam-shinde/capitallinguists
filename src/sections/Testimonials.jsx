@@ -61,7 +61,7 @@ const Testimonials = () => {
                             <div className="testimonials-card__top">
                                 <div className="testimonials-card__image bw-img-anim-right">
                                     <img
-                                        src="assets/images/resources/testi-1-1.jpg"
+                                        src="/assets/capital-img/testi-1-1.jpg"
                                         alt="Alen Martin"
                                     />
                                 </div>
@@ -105,7 +105,7 @@ const Testimonials = () => {
                             <div className="testimonials-card__top">
                                 <div className="testimonials-card__image bw-img-anim-right">
                                     <img
-                                        src="assets/images/resources/testi-1-2.jpg"
+                                        src="/assets/capital-img/testi-1-2.jpg"
                                         alt="Hena Wiano"
                                     />
                                 </div>
@@ -149,7 +149,7 @@ const Testimonials = () => {
                             <div className="testimonials-card__top">
                                 <div className="testimonials-card__image bw-img-anim-right">
                                     <img
-                                        src="assets/images/resources/testi-1-3.jpg"
+                                        src="/assets/capital-img/testi-1-3.jpg"
                                         alt="Keli Wiliam"
                                     />
                                 </div>

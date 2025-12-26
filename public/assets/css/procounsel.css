@@ -406,6 +406,7 @@ h6 {
   position: relative;
   overflow: hidden;
   text-align: center;
+  text-transform: uppercase;
 }
 .procounsel-btn > i {
   padding: 13px 40px;
@@ -417,6 +418,7 @@ h6 {
   transition: transform 500ms ease;
   transform-origin: top center;
   transform: translateY(0%) translateZ(0px) scaleY(1) rotateX(0deg);
+  text-transform: uppercase;
 }
 .procounsel-btn:hover > i {
   transform-origin: bottom center;
@@ -810,7 +812,8 @@ h6 {
 .sec-title__title {
   margin: 0;
   font-family: var(--procounsel-heading-font, "Marcellus", serif);
-  font-weight: 400;
+  font-weight: 600;
+  /* font-weight: 400; */
   font-size: 50px;
   line-height: 60px;
   letter-spacing: 0%;
@@ -5334,11 +5337,13 @@ h6 {
   }
 }
 .main-menu .main-menu__list > li > a {
-  font-size: 16px;
+  font-size: 18px;
+  /* font-size: 16px; */
   display: flex;
   align-items: center;
   color: var(--procounsel-white, #fff);
-  font-weight: 400;
+  font-weight: 500;
+  /* font-weight: 400; */
   text-transform: capitalize;
   position: relative;
   transition: all 500ms ease;
@@ -18057,7 +18062,7 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 .barnds-one__img img {
   width: auto !important;
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
   transition: all 500ms ease;
 }
 .barnds-one__img:hover img {

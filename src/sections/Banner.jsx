@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+import Link from "next/link";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Autoplay, Pagination } from "swiper/modules";
@@ -8,12 +10,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const Banner = () => {
     const sliderData = [
         {
-            bg: "/assets/images/backgrounds/slider-1-1.jpg",
-            // bg: "/assets/distributor-img/istockphoto-banner.jpg",
-            // bg: "/assets/distributor-img/home-page-banner.jpg",
+            bg: "/assets/capital-img/banner-home.jpg",
             title: (
                 <>
-                    With over 20,000  <br /> interpreters and translators
+                    With over 20,000 interpreters <br />  and translators
                     {/* Trusted. Vetted. <br /> Trial-Ready. */}
                 </>
             ),
@@ -52,23 +52,21 @@ const Banner = () => {
 
                             {/* <div style={{ position: "absolute", inset: 0, background: "rgba(0, 0, 0, 0.55)", zIndex: 1 }} /> */}
                             <div className="content container home-content">
-
-
-                                <h1 className="mt-3">{slide.title}</h1>
+                                <h1 className="mt-3 fw-bold">{slide.title}</h1>
                                 <div>{slide.text}</div>
 
                                 {/* <ServiceCards /> */}
                                 <div className="d-flex flex-wrap justify-content-start align-items-center gap-2 gap-md-4">
                                     <div>
-                                        <a href="#" className="procounsel-btn d-flex flex-column flex-sm-row text-center text-sm-start">
-                                            <i>GET STARTED</i>
-                                            <span className="">GET STARTED</span>
+                                        <a href="#" className="procounsel-btn d-flex flex-column flex-sm-row text-center text-sm-start text-uppercase">
+                                            <i>instant quote</i>
+                                            <span className="text-uppercase">instant quote</span>
                                         </a>
                                     </div>
                                     <div>
-                                        <a href="#" className="procounsel-btn d-flex flex-column flex-sm-row text-center text-sm-start">
-                                            <i>LEARN MORE</i>
-                                            <span className="">LEARN MORE</span>
+                                        <a href="#" className="procounsel-btn d-flex flex-column flex-sm-row text-center text-sm-start text-uppercase">
+                                            <i>instant quote</i>
+                                            <span className="text-uppercase">instant quote</span>
                                         </a>
                                     </div>
                                 </div>
@@ -141,7 +139,7 @@ const Banner = () => {
                         </div>
                     </div>
                 </div>
-            </div> */}
+            </div>   */}
         </section>
     )
 }

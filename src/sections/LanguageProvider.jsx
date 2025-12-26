@@ -37,6 +37,7 @@ const LanguageProvider = () => {
       }
     })();
   }, []);
+
   return (
     <div
       className="about-one"
@@ -46,7 +47,7 @@ const LanguageProvider = () => {
       <section className="service-one">
         <div
           className="service-one__bg"
-          style={{
+          style={{ 
             backgroundImage: "url(assets/images/shapes/service-bg-1.png)",
           }}
         ></div>
@@ -67,7 +68,7 @@ const LanguageProvider = () => {
               data-wow-delay="00ms"
             >
               <div
-                className="service-one__item mx-3"
+                className="service-one__item mx-3 d-flex flex-column justify-content-between"
                 style={{ maxHeight: "570px", height: "100%" }}
               >
                 <div className="service-one__item__top">
@@ -97,7 +98,7 @@ const LanguageProvider = () => {
               data-wow-delay="100ms"
             >
               <div
-                className="service-one__item mx-3"
+                className="service-one__item mx-3 d-flex flex-column justify-content-between"
                 style={{ maxHeight: "570px", height: "100%" }}
               >
                 <div className="service-one__item__top">
@@ -128,7 +129,7 @@ const LanguageProvider = () => {
               data-wow-delay="200ms"
             >
               <div
-                className="service-one__item mx-3"
+                className="service-one__item mx-3 d-flex flex-column justify-content-between"
                 style={{ maxHeight: "570px", height: "100%" }}
               >
                 <div className="service-one__item__top">
@@ -159,14 +160,12 @@ const LanguageProvider = () => {
               data-wow-delay="300ms"
             >
               <div
-                className="service-one__item mx-3"
+                className="service-one__item mx-3 d-flex flex-column justify-content-between"
                 style={{ maxHeight: "570px", height: "100%" }}
               >
                 <div className="service-one__item__top">
                   <h3 className="service-one__item__title">
-                    <a href="#">
-                      Translation Equipment
-                    </a>
+                    <a href="#">Translation Equipment</a>
                   </h3>
                   <span className="service-one__item__count"></span>
                 </div>
@@ -195,7 +194,7 @@ const LanguageProvider = () => {
               data-wow-delay="00ms"
             >
               <div
-                className="service-one__item mx-3"
+                className="service-one__item mx-3 d-flex flex-column justify-content-between"
                 style={{ maxHeight: "570px", height: "100%" }}
               >
                 <div className="service-one__item__top">
@@ -225,7 +224,7 @@ const LanguageProvider = () => {
               data-wow-delay="100ms"
             >
               <div
-                className="service-one__item mx-3"
+                className="service-one__item mx-3 d-flex flex-column justify-content-between"
                 style={{ maxHeight: "570px", height: "100%" }}
               >
                 <div className="service-one__item__top">
@@ -256,7 +255,7 @@ const LanguageProvider = () => {
               data-wow-delay="200ms"
             >
               <div
-                className="service-one__item mx-3"
+                className="service-one__item mx-3 d-flex flex-column justify-content-between"
                 style={{ maxHeight: "570px", height: "100%" }}
               >
                 <div className="service-one__item__top">
@@ -287,7 +286,7 @@ const LanguageProvider = () => {
               data-wow-delay="300ms"
             >
               <div
-                className="service-one__item mx-3"
+                className="service-one__item mx-3 d-flex flex-column justify-content-between"
                 style={{ maxHeight: "570px", height: "100%" }}
               >
                 <div className="service-one__item__top">
@@ -362,15 +361,19 @@ const LanguageProvider = () => {
                     >
                       <div className="item">
                         <div className="barnds-one__img">
-                          <img className="img-fluid" style={{width:"150px", height:"80px"}}
-                            src="/assets/capital-img/brazil-embassy.webp" 
+                          <img
+                            className="img-fluid"
+                            style={{ width: "150px", height: "80px" }}
+                            src="/assets/capital-img/brazil-embassy.webp"
                             alt=""
                           />
                         </div>
                       </div>
                       <div className="item">
                         <div className="barnds-one__img">
-                          <img className="img-fluid" style={{width:"150px", height:"80px"}}
+                          <img
+                            className="img-fluid"
+                            style={{ width: "150px", height: "80px" }}
                             src="/assets/capital-img/poultry-egg-council.webp"
                             alt=""
                           />
@@ -378,15 +381,9 @@ const LanguageProvider = () => {
                       </div>
                       <div className="item">
                         <div className="barnds-one__img">
-                          <img className="img-fluid" style={{width:"150px", height:"80px"}}
-                            src="/assets/capital-img/sony.webp"
-                            alt=""
-                          />
-                        </div>
-                      </div>
-                      <div className="item">
-                        <div className="barnds-one__img">
-                          <img className="img-fluid" style={{width:"150px", height:"80px"}}
+                          <img
+                            className="img-fluid"
+                            style={{ width: "150px", height: "80px" }}
                             src="/assets/capital-img/ingram-micro.webp"
                             alt=""
                           />
@@ -394,7 +391,9 @@ const LanguageProvider = () => {
                       </div>
                       <div className="item">
                         <div className="barnds-one__img">
-                          <img className="img-fluid" style={{width:"150px", height:"80px"}}
+                          <img
+                            className="img-fluid"
+                            style={{ width: "150px", height: "80px" }}
                             src="/assets/capital-img/DOJ.webp"
                             alt=""
                           />
@@ -402,7 +401,19 @@ const LanguageProvider = () => {
                       </div>
                       <div className="item">
                         <div className="barnds-one__img">
-                          <img className="img-fluid" style={{width:"150px", height:"80px"}}
+                          <img
+                            className="img-fluid"
+                            style={{ width: "150px", height: "80px" }}
+                            src="/assets/capital-img/stanford.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div className="item">
+                        <div className="barnds-one__img">
+                          <img
+                            className="img-fluid"
+                            style={{ width: "150px", height: "80px" }}
                             src="/assets/capital-img/ingram-micro.webp"
                             alt=""
                           />
