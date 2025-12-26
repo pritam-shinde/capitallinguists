@@ -6,35 +6,40 @@ const Team = () => {
       id: 1,
       name: "Philip Rosen MA",
       designation: "Managing Director",
-      img: "/assets/images/team/team-1-1.jpg",
+      img: "/assets/capital-img/team1.png",
+      // img: "/assets/images/team/team-1-1.jpg",
       delay: "000ms",
     },
     {
       id: 2,
       name: "Kathy Gallo",
       designation: "Senior Project Manager",
-      img: "/assets/images/team/team-1-2.jpg",
+      img: "/assets/capital-img/team2.png",
+      // img: "/assets/images/team/team-1-2.jpg",
       delay: "100ms",
     },
     {
       id: 3,
       name: "Claude Prevost",
       designation: "Marketing Director",
-      img: "/assets/images/team/team-1-3.jpg",
+      img: "/assets/capital-img/team3.png",
+      // img: "/assets/images/team/team-1-3.jpg",
       delay: "200ms",
     },
     {
       id: 4,
       name: "Becky Redfield",
       designation: "Project Manager",
-      img: "/assets/images/team/team-1-4.jpg",
+      img: "/assets/capital-img/team1.png",
+      // img: "/assets/images/team/team-1-4.jpg",
       delay: "200ms",
     },
     {
       id: 5,
       name: "Yuli Rosiana",
       designation: "Project Manager",
-      img: "/assets/images/team/team-1-5.jpg",
+      img: "/assets/capital-img/team2.png",
+      // img: "/assets/images/team/team-1-5.jpg",
       delay: "200ms",
     },
   ];
@@ -67,6 +72,10 @@ const Team = () => {
       /> */}
       <div className="container">
         <div className="sec-title text-center">
+          <div className="sec-title__tagline bw-split-in-up-fast d-inline-flex align-items-center gap-2">
+            WE ARE THERE FOR YOU
+          </div>
+
           <h3 className="sec-title__title bw-split-in-up">
             Leadership Team at <br />
             <span> Capital Linguists</span>
@@ -131,6 +140,12 @@ const Team = () => {
               </div>
             </div>
           ))}
+        </div>
+        <div className="d-flex">
+          <a href="#" className="procounsel-btn mt-5 m-auto">
+            <i>Contact Us Now</i>
+            <span>Contact Us Now</span>
+          </a>
         </div>
       </div>
     </section>

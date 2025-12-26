@@ -1,82 +1,96 @@
 "use client";
 
-import Image from "next/image";
-import Link from "next/link";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const Banner = () => {
-    const sliderData = [
-        {
-            bg: "/assets/capital-img/banner-home.jpg",
-            title: (
-                <>
-                    With over 20,000 interpreters <br />  and translators
-                    {/* Trusted. Vetted. <br /> Trial-Ready. */}
-                </>
-            ),
-            text: (
-                <>
-                    <p style={{ marginBottom: "20px" }} className="custom-max-width2">
-                        We provide services around the world in over 200 languages
-                    </p>
-                </>
-            ),
-        }
-    ];
-    return (
-        <section className="hero-slider" style={{ background: "#0E222A" }}>
-            <Swiper
-                modules={[Autoplay, Pagination]}
-                spaceBetween={0}
-                slidesPerView={1}
-                // loop={true}
-                // autoplay={{ delay: 8000, disableOnInteraction: false }}
-                // speed={3000} // 3s smooth transition speed
-                pagination={{ clickable: true }}
-                className="heroSwiper"
+  const sliderData = [
+    {
+      bg: "/assets/capital-img/banner-home.jpg",
+      title: (
+        <>
+          With over 20,000 <br /> interpreters and translators
+        </>
+      ),
+      text: (
+        <>
+          <p style={{ marginBottom: "20px" }} className="custom-max-width2">
+            We provide services around the world in over 200 languages
+          </p>
+          <p style={{ marginBottom: "20px" }} className="custom-max-width2">
+            “When Success Depends on Every Word”
+          </p>
+        </>
+      ),
+    },
+  ];
+  return (
+    <section className="hero-slider" style={{ background: "#0E222A" }}>
+      <Swiper
+        modules={[Autoplay, Pagination]}
+        spaceBetween={0}
+        slidesPerView={1}
+        // loop={true}
+        // autoplay={{ delay: 8000, disableOnInteraction: false }}
+        // speed={3000} // 3s smooth transition speed
+        pagination={{ clickable: true }}
+        className="heroSwiper"
+      >
+        {sliderData.map((slide, index) => (
+          <SwiperSlide key={index}>
+            <div
+              className="hero-slide"
+              style={{
+                backgroundImage: `url(${slide.bg})`,
+                backgroundPosition: "left center",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+              }}
             >
-                {sliderData.map((slide, index) => (
-                    <SwiperSlide key={index}>
-                        <div
-                            className="hero-slide"
-                            style={{
-                                backgroundImage: `url(${slide.bg})`,
-                                backgroundPosition: "left center",
-                                backgroundRepeat: "no-repeat",
-                                backgroundSize: "cover",
-                            }}>
-                            <div className="main-slider-one__overlay-one"></div>
+              <div className="main-slider-one__overlay-one"></div>
 
-                            {/* <div style={{ position: "absolute", inset: 0, background: "rgba(0, 0, 0, 0.55)", zIndex: 1 }} /> */}
-                            <div className="content container home-content">
-                                <h1 className="mt-3 fw-bold">{slide.title}</h1>
-                                <div>{slide.text}</div>
+              <div
+                style={{
+                  position: "absolute",
+                  inset: 0,
+                  background: "rgba(0, 0, 0, 0.25)",
+                  zIndex: 1,
+                }}
+              />
+              <div className="content container home-content">
+                <h1 className="mt-3 fw-bold">{slide.title}</h1>
+                <div>{slide.text}</div>
 
-                                {/* <ServiceCards /> */}
-                                <div className="d-flex flex-wrap justify-content-start align-items-center gap-2 gap-md-4">
-                                    <div>
-                                        <a href="#" className="procounsel-btn d-flex flex-column flex-sm-row text-center text-sm-start text-uppercase">
-                                            <i>instant quote</i>
-                                            <span className="text-uppercase">instant quote</span>
-                                        </a>
-                                    </div>
-                                    <div>
-                                        <a href="#" className="procounsel-btn d-flex flex-column flex-sm-row text-center text-sm-start text-uppercase">
-                                            <i>instant quote</i>
-                                            <span className="text-uppercase">instant quote</span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </SwiperSlide>
-                ))}
-            </Swiper>
+                {/* <ServiceCards /> */}
+                <div className="d-flex flex-wrap justify-content-start align-items-center gap-2 gap-md-4">
+                  <div>
+                    <a
+                      href="#"
+                      className="procounsel-btn d-flex flex-column flex-sm-row text-center text-sm-start text-uppercase"
+                    >
+                      <i>instant quote</i>
+                      <span className="text-uppercase">instant quote</span>
+                    </a>
+                  </div>
+                  <div>
+                    <a
+                      href="#"
+                      className="procounsel-btn d-flex flex-column flex-sm-row text-center text-sm-start text-uppercase"
+                    >
+                      <i>instant quote</i>
+                      <span className="text-uppercase">instant quote</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
 
-            {/* <div className="container">
+      {/* <div className="container">
                 <div className="feature-one">
                     <div className="feature-one home-banner-service-info featured-dimension">
                         <div className="feature-one__inner">
@@ -140,8 +154,8 @@ const Banner = () => {
                     </div>
                 </div>
             </div>   */}
-        </section>
-    )
-}
+    </section>
+  );
+};
 
-export default Banner
+export default Banner;

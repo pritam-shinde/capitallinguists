@@ -718,3 +718,40 @@ a {
   color: #ffffff;
   line-height: 1.5;
 }
+.fs-15 {
+  font-size: 15px !important;
+}
+
+.fs-40 {
+  font-size: 40px !important;
+}
+
+/* This is custom CSS */
+.number-color{
+  color: #e1e1e4 !important;
+}
+
+.service-one__item:hover .number-color, .service-one__item:hover .service-one__item__text {
+  color: #fff !important;
+}
+
+.about-text {
+  max-height: 120px;
+  overflow: hidden;
+  transform: translateY(-6px);
+  transition: max-height 0.45s ease, opacity 0.3s ease, transform 0.3s ease;
+}
+
+.about-text.expanded {
+  max-height: 1000px; /* big enough */
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.team-one__member-name{
+  color: #5b5b5b;
+}
+
+.team-one__member-name:hover{
+  color: var(--procounsel-base) !important;
+}

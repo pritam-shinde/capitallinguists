@@ -1,124 +1,175 @@
-
- const Footer = () => {
-    return (
-        <footer className="main-footer">
-            <div className="main-footer__bg" style={{ backgroundImage: "url(assets/images/backgrounds/footer-bg.png)" }}></div>
-            <div className="main-footer__top">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-6 col-xl-4 wow fadeInUp" data-wow-delay="00ms">
-                            <div className="footer-widget footer-widget--about">
-                                <a href="#" className="footer-widget__logo">
-                                    <img src="/assets/capital-img/capital-logo.png" width="160" alt="Procounsel HTML Template" />
-                                </a>
-                                <p className="footer-widget__text">
-                                   Organically grow the holistic world view of disruptive innovation via empowerment.
-                                </p>
-                            </div>
-                        </div>
-                        <div className="col-md-6 col-xl-2 wow fadeInUp" data-wow-delay="100ms">
-                            <div className="footer-widget footer-widget--links">
-                                <h2 className="footer-widget__title">Links</h2>
-                                <ul className="list-unstyled footer-widget__links">
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">About Us</a></li>
-                                    <li><a href="#">Interpreting</a></li>
-                                    <li><a href="#">Translation</a></li>
-                                    <li><a href="#">Languages</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="col-md-6 col-xl-2 wow fadeInUp" data-wow-delay="200ms">
-                            <div className="footer-widget footer-widget--links">
-                                <h2 className="footer-widget__title">Explore</h2>
-                                <ul className="list-unstyled footer-widget__links">
-                                    <li><a href="#">What We Offer</a></li>
-                                    <li><a href="#">Our Story</a></li>
-                                    <li><a href="#">Latest News</a></li>
-                                    <li><a href="#">Help Center</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="col-md-6 col-xl-4 wow fadeInUp" data-wow-delay="300ms">
-                            <div className="footer-widget footer-widget--mail">
-                                <h2 className="footer-widget__title">
-                                    Signup for our latest news<br /> & articles
-                                </h2>
-                                <form action="#" data-url="MAILCHIMP_FORM_URL" className="footer-widget__newsletter mc-form">
-                                    <input type="text" name="EMAIL" placeholder="Email Address" />
-                                    <button type="submit">
-                                        <i className="icon-right-arrow-2"></i>
-                                        <span className="sr-only">submit</span>
-                                    </button>
-                                </form>
-                                <div className="footer-widget__check">
-                                    <input type="checkbox" checked="" name="save-data" id="save-data" />
-                                    <label for="save-data"><span></span>I agree to the <a href="checkout.html">Privacy Policy.</a></label>
-                                </div>
-                                <div className="mc-form__response"></div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div className="main-footer__info">
-                        <div className="row">
-                            <div className="col-lg-8">
-                                <div className="main-footer__info__inner">
-                                    <div className="main-footer__info__pin">
-                                        <i className="icon-pin"></i>
-                                    </div>
-                                    <div className="main-footer__info__location">
-                                        Silver Spring is a census-designated place in  <br /> southeastern Montgomery County, Maryland, United States, near Washington,
-                                    </div>
-                                    <ul className="list-unstyled main-footer__info__list">
-                                        <li className="main-footer__info__item">
-                                            <div className="main-footer__info__icon">
-                                                <i className="icon-telephone-call-1"></i>
-                                            </div>
-                                            <div className="main-footer__info__content">
-                                                <p className="main-footer__info__text">
-                                                    <a href="tel:+(612) 817-7744">(612) 817-7744</a>
-                                                </p>
-                                            </div>
-                                        </li>
-                                        <li className="main-footer__info__item">
-                                            <div className="main-footer__info__icon">
-                                                <i className="icon-mail"></i>
-                                            </div>
-                                            <div className="main-footer__info__content">
-                                                <p className="main-footer__info__text">
-                                                    <a href="tel:+2195550114">michael.mitc@example.com</a>
-                                                </p>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className="col-lg-4">
-                                <div className="main-footer__info__social">
-                                    <a href="https://facebook.com">
-                                        <i className="icon-facebook"></i>
-                                        <span className="sr-only">Facebook</span>
-                                    </a>
-                                    <a href="https://pinterest.com">
-                                        <i className="icon-pinterest"></i>
-                                        <span className="sr-only">Pinterest</span>
-                                    </a>
-                                    <a href="https://twitter.com">
-                                        <i className="icon-twitter"></i>
-                                        <span className="sr-only">Twitter</span>
-                                    </a>
-                                    <a href="https://youtube.com">
-                                        <i className="icon-youtube"></i>
-                                        <span className="sr-only">Youtube</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+const Footer = () => {
+  return (
+    <footer className="main-footer">
+      <div
+        className="main-footer__bg"
+        // style={{ backgroundImage: "url(assets/images/backgrounds/footer-bg.png)" }}
+      ></div>
+      <div className="main-footer__top">
+        <div className="container">
+          <div className="row">
+            <div
+              className="col-md-6 col-xl-4 wow fadeInUp"
+              data-wow-delay="00ms"
+            >
+              <div className="footer-widget footer-widget--about">
+                <a href="#" className="footer-widget__logo">
+                  <img
+                    src="/assets/capital-img/capital-logo.png"
+                    width="160"
+                    alt="Procounsel HTML Template"
+                  />
+                </a>
+                <p className="footer-widget__text">
+                  Organically grow the holistic world view of disruptive
+                  innovation via empowerment.
+                </p>
+              </div>
             </div>
-            {/* <div className="main-footer__bottom  wow fadeInUp" data-wow-delay="00ms">
+            <div
+              className="col-md-6 col-xl-2 wow fadeInUp"
+              data-wow-delay="100ms"
+            >
+              <div className="footer-widget footer-widget--links">
+                <h2 className="footer-widget__title">Links</h2>
+                <ul className="list-unstyled footer-widget__links">
+                  <li>
+                    <a href="#">Home</a>
+                  </li>
+                  <li>
+                    <a href="#">About Us</a>
+                  </li>
+                  <li>
+                    <a href="#">Interpreting</a>
+                  </li>
+                  <li>
+                    <a href="#">Translation</a>
+                  </li>
+                  <li>
+                    <a href="#">Languages</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              className="col-md-6 col-xl-2 wow fadeInUp"
+              data-wow-delay="200ms"
+            >
+              <div className="footer-widget footer-widget--links">
+                <h2 className="footer-widget__title">Explore</h2>
+                <ul className="list-unstyled footer-widget__links">
+                  <li>
+                    <a href="#">What We Offer</a>
+                  </li>
+                  <li>
+                    <a href="#">Our Story</a>
+                  </li>
+                  <li>
+                    <a href="#">Latest News</a>
+                  </li>
+                  <li>
+                    <a href="#">Help Center</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              className="col-md-6 col-xl-4 wow fadeInUp"
+              data-wow-delay="300ms"
+            >
+              <div className="footer-widget footer-widget--mail">
+                <h2 className="footer-widget__title">
+                  Signup for our latest news
+                  <br /> & articles
+                </h2>
+                <form
+                  action="#"
+                  data-url="MAILCHIMP_FORM_URL"
+                  className="footer-widget__newsletter mc-form"
+                >
+                  <input type="text" name="EMAIL" placeholder="Email Address" />
+                  <button type="submit">
+                    <i className="icon-right-arrow-2"></i>
+                    <span className="sr-only">submit</span>
+                  </button>
+                </form>
+                <div className="footer-widget__check">
+                  <input
+                    type="checkbox"
+                    checked=""
+                    name="save-data"
+                    id="save-data"
+                  />
+                  <label htmlFor="save-data">
+                    <span></span>I agree to the{" "}
+                    <a href="checkout.html">Privacy Policy.</a>
+                  </label>
+                </div>
+                <div className="mc-form__response"></div>
+              </div>
+            </div>
+          </div>
+          <div className="main-footer__info">
+            <div className="row">
+              <div className="col-lg-8">
+                <div className="main-footer__info__inner">
+                  <div className="main-footer__info__pin">
+                    <i className="icon-pin"></i>
+                  </div>
+                  <div className="main-footer__info__location">
+                    Silver Spring is a census-designated place in <br />{" "}
+                    southeastern Montgomery County, Maryland, United States,
+                    near Washington,
+                  </div>
+                  <ul className="list-unstyled main-footer__info__list">
+                    <li className="main-footer__info__item">
+                      <div className="main-footer__info__icon">
+                        <i className="icon-telephone-call-1"></i>
+                      </div>
+                      <div className="main-footer__info__content">
+                        <p className="main-footer__info__text">
+                          <a href="tel:+(612) 817-7744">(612) 817-7744</a>
+                        </p>
+                      </div>
+                    </li>
+                    <li className="main-footer__info__item">
+                      <div className="main-footer__info__icon">
+                        <i className="icon-mail"></i>
+                      </div>
+                      <div className="main-footer__info__content">
+                        <p className="main-footer__info__text">
+                          <a href="tel:+2195550114">michael.mitc@example.com</a>
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="col-lg-4">
+                <div className="main-footer__info__social">
+                  <a href="https://facebook.com">
+                    <i className="icon-facebook"></i>
+                    <span className="sr-only">Facebook</span>
+                  </a>
+                  <a href="https://pinterest.com">
+                    <i className="icon-pinterest"></i>
+                    <span className="sr-only">Pinterest</span>
+                  </a>
+                  <a href="https://twitter.com">
+                    <i className="icon-twitter"></i>
+                    <span className="sr-only">Twitter</span>
+                  </a>
+                  <a href="https://youtube.com">
+                    <i className="icon-youtube"></i>
+                    <span className="sr-only">Youtube</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* <div className="main-footer__bottom  wow fadeInUp" data-wow-delay="00ms">
                 <div className="container">
                     <div className="main-footer__bottom__inner">
                         <p className="main-footer__copyright">
@@ -127,11 +178,10 @@
                     </div>
                 </div>
             </div> */}
-        </footer>
-    )
-}
-export default Footer
-
+    </footer>
+  );
+};
+export default Footer;
 
 // import Image from "next/image";
 
@@ -238,7 +288,6 @@ export default Footer
 //                             ))}
 //                         </div>
 //                         </div>
-
 
 //                         {/* Newsletter */}
 //                         {/* <div className="col-md-6 col-xl-4 wow fadeInUp" data-wow-delay="300ms">

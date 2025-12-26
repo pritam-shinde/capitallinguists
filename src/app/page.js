@@ -72,28 +72,43 @@ export default function Home() {
                 <div className="about-four__content">
                   <div className="sec-title text-left">
                     <div className="sec-title__tagline bw-split-in-up-fast d-inline-flex align-items-center gap-2">
-                      About Us
+                      Services We Offer
                     </div>
 
                     <h3 className="sec-title__title bw-split-in-up">
-                      Experience the <br /> Best in{" "}
-                      <span>Legal Excellence</span>
+                      Translation <span>Services</span>
                     </h3>
                   </div>
-                  <p className="about-four__text">
-                    There are many variations of passages of one Lorem Ipsum
-                    avalab but the majority have suffered alteration in some
-                    form, by injed humour words randomised words which don't
+                  <p
+                    className="about-four__text"
+                    style={{ fontWeight: "normal" }}
+                  >
+                    Is language an obstacle between you and your clients? Let us
+                    help you eliminate those challenges. At Capital Linguists,
+                    we offer a full range of translation, website localization,
+                    and desktop publishing services, ensuring top-notch quality
+                    at affordable prices. We have our service headquarters in
+                    Washington D.C., New York, NY, and San Francisco, CA. Why
+                    use our exceptional translation services?
                   </p>
-                  <ul className="list-unstyled about-four__list">
-                    <li className="about-four__item">
-                      <i className="icon-check"></i>
-                      Many variations of passages
-                    </li>
-                    <li className="about-four__item">
-                      <i className="icon-check"></i>
-                      Many variations of passages
-                    </li>
+                  <ul className="list-unstyled about-four__list row">
+                    {[
+                      "Highly Experienced Translators",
+                      "Medical Translation",
+                      "Legal Translation",
+                      "Certified Translation",
+                      "All Documents Edited",
+                      "ISO 9001 Registered",
+                      "Rapid Response Times",
+                      "Over 200 Languages",
+                    ].map((i, index) => (
+                      <li
+                        key={index}
+                        className="about-four__item col-lg-6 col-md-12 col-sm-12 col-12"
+                      >
+                        <i className="icon-check"></i> {i}
+                      </li>
+                    ))}
                   </ul>
                   <div className="about-four__btns">
                     <a href="#" className="procounsel-btn ">
@@ -111,37 +126,52 @@ export default function Home() {
           </div>
         </section>
 
-        {/*  2*/}
-        <section className="about-four about-four-about" id="about">
+        {/* 2*/}
+        <section className="about-four about-four-about pt-0" id="about">
           <div className="container">
             <div className="row gutter-y-30">
               <div className="col-md-8 col-12">
                 <div className="about-four__content">
                   <div className="sec-title text-left">
                     <div className="sec-title__tagline bw-split-in-up-fast d-inline-flex align-items-center gap-2">
-                      About Us
+                      Services We Offer
                     </div>
 
                     <h3 className="sec-title__title bw-split-in-up">
-                      Experience the <br /> Best in{" "}
-                      <span>Legal Excellence</span>
+                      Interpreting <span>Services</span>
                     </h3>
                   </div>
                   <p className="about-four__text">
-                    There are many variations of passages of one Lorem Ipsum
-                    avalab but the majority have suffered alteration in some
-                    form, by injed humour words randomised words which don't
+                    Our highly trained and certified interpreters specialize in
+                    all major language pairs, ready to facilitate communication
+                    for any event. We offer conference interpretation services
+                    that are perfect for business meetings and official
+                    occasions. We provide same-day quotes and can arrange
+                    interpreters at short notice. Our highly trained
+                    interpreters and technicians work together to support
+                    successful events. Benefits of our interpreting services
+                    include:
                   </p>
-                  <ul className="list-unstyled about-four__list">
-                    <li className="about-four__item">
-                      <i className="icon-check"></i>
-                      Many variations of passages
-                    </li>
-                    <li className="about-four__item">
-                      <i className="icon-check"></i>
-                      Many variations of passages
-                    </li>
+                  <ul className="list-unstyled about-four__list row">
+                    {[
+                      "Highly Qualified Interpreters",
+                      "Five Years Experience Minimum",
+                      "Advanced Interpreting Equipment",
+                      "Interpreters Available Locally",
+                      "Video Remote Interpretation",
+                      "Simultaneous Interpreters",
+                      "Consecutive Interpreters",
+                      "Dedicated Project Manager",
+                    ].map((i, index) => (
+                      <li
+                        key={index}
+                        className="about-four__item col-lg-6 col-md-12 col-sm-12 col-12"
+                      >
+                        <i className="icon-check"></i> {i}
+                      </li>
+                    ))}
                   </ul>
+
                   <div className="about-four__btns">
                     <a href="#" className="procounsel-btn ">
                       <i> Discover More</i>
@@ -164,8 +194,8 @@ export default function Home() {
           </div>
         </section>
 
-        {/*  3*/}
-        <section className="about-four about-four-about" id="about">
+        {/* 3*/}
+        <section className="about-four about-four-about pt-0" id="about">
           <div className="container">
             <div className="row gutter-y-30">
               <div className="col-md-4 col-12">
@@ -177,28 +207,44 @@ export default function Home() {
                 <div className="about-four__content">
                   <div className="sec-title text-left">
                     <div className="sec-title__tagline bw-split-in-up-fast d-inline-flex align-items-center gap-2">
-                      About Us
+                      Services We Offer
                     </div>
 
                     <h3 className="sec-title__title bw-split-in-up">
-                      Experience the <br /> Best in{" "}
-                      <span>Legal Excellence</span>
+                      Conference <span>Services</span>
                     </h3>
                   </div>
                   <p className="about-four__text">
-                    There are many variations of passages of one Lorem Ipsum
-                    avalab but the majority have suffered alteration in some
-                    form, by injed humour words randomised words which don't
+                    Our professional interpreters and audiovisual technicians
+                    offer quality interpreting services and conference support
+                    throughout the United States and beyond. For fast, reliable,
+                    and professional interpreting, reach out to us today. We
+                    ensure outstanding experiences for your audience, fostering
+                    positive connections between speakers and listeners. Our
+                    interpreters, fluent at native or near-native levels in all
+                    their working languages, are ready to assist. With
+                    interpreters fluent in their working languages at a native
+                    or near-native level, we provide the highest standard of
+                    service. We offer a full range of interpreting services:
                   </p>
-                  <ul className="list-unstyled about-four__list">
-                    <li className="about-four__item">
-                      <i className="icon-check"></i>
-                      Many variations of passages
-                    </li>
-                    <li className="about-four__item">
-                      <i className="icon-check"></i>
-                      Many variations of passages
-                    </li>
+                  <ul className="list-unstyled about-four__list row">
+                    {[
+                      "Consecutive Interpreting",
+                      "Face to Face Interpreting",
+                      "Over-the-Phone Interpreting",
+                      "Telephone Interpreting",
+                      "Simultaneous Interpreting",
+                      "Conference Interpreting",
+                      "Onsite Interpreting",
+                      "Remote Consecutive Interpreting",
+                    ].map((i, index) => (
+                      <li
+                        key={index}
+                        className="about-four__item col-lg-6 col-md-12 col-sm-12 col-12"
+                      >
+                        <i className="icon-check"></i> {i}
+                      </li>
+                    ))}
                   </ul>
                   <div className="about-four__btns">
                     <a href="#" className="procounsel-btn ">
@@ -216,35 +262,47 @@ export default function Home() {
           </div>
         </section>
 
-        {/*4  */}
-        <section className="about-four about-four-about" id="about">
+        {/* 4 */}
+        <section className="about-four about-four-about pt-0" id="about">
           <div className="container">
             <div className="row gutter-y-30">
               <div className="col-md-8 col-12">
                 <div className="about-four__content">
                   <div className="sec-title text-left">
                     <div className="sec-title__tagline bw-split-in-up-fast d-inline-flex align-items-center gap-2">
-                      About Us
+                      Services We Offer
                     </div>
 
                     <h3 className="sec-title__title bw-split-in-up">
-                      Experience the <br /> Best in <span>Legal Excellence</span>
+                      Interpreting <span>Equipment</span>
                     </h3>
                   </div>
                   <p className="about-four__text">
-                    There are many variations of passages of one Lorem Ipsum
-                    avalab but the majority have suffered alteration in some
-                    form, by injed humour words randomised words which don't
+                    At Capital Linguists, our translation equipment is tailored
+                    to enhance the success of your conferences, events, or
+                    meetings. Our world-class interpretation equipment
+                    guarantees seamless support for all your translation needs.
+                    We provide both portable and fixed options to accommodate
+                    every event, including:
                   </p>
-                  <ul className="list-unstyled about-four__list">
-                    <li className="about-four__item">
-                      <i className="icon-check"></i>
-                      Many variations of passages
-                    </li>
-                    <li className="about-four__item">
-                      <i className="icon-check"></i>
-                      Many variations of passages
-                    </li>
+                  <ul className="list-unstyled about-four__list row">
+                    {[
+                      "Transmitters, mixers and CCUS",
+                      "Microphones",
+                      "Soundproof booths",
+                      "PA Systems",
+                      "Infrared radiators",
+                      "SM interpretation equipment",
+                      "Digi-Wave equipment",
+                      "Video monitors",
+                    ].map((i, index) => (
+                      <li
+                        key={index}
+                        className="about-four__item col-lg-6 col-md-12 col-sm-12 col-12"
+                      >
+                        <i className="icon-check"></i> {i}
+                      </li>
+                    ))}
                   </ul>
                   <div className="about-four__btns">
                     <a href="#" className="procounsel-btn ">
@@ -269,7 +327,10 @@ export default function Home() {
         </section>
 
         {/*   */}
-        <section className="team-one" style={{ background: "#0E222A" }}>
+        <section
+          className="team-one"
+          style={{ backgroundColor: "var(--procounsel-primary, #19223a)" }}
+        >
           <div className="container">
             <div className="sec-title text-left">
               <h3 className="sec-title__title bw-split-in-up text-white">
@@ -462,31 +523,35 @@ export default function Home() {
                     <div className="sec-title text-left">
                       <h3 className="sec-title__title bw-split-in-up">
                         Why Choose
-                        <span>  Us</span>
+                        <span> Us</span>
                       </h3>
-                      <h4 className="tailored-subtitle font-Merriweather text-white mt-2">
+                      {/* <h4 className="tailored-subtitle font-Merriweather text-white mt-2">
                         End-to-end distribution services tailored to your
                         brand's unique needs
-                      </h4>
+                      </h4> */}
                     </div>
 
                     <div className="why-choose-four__list">
                       <div className="why-choose-four__item">
                         <div className="why-choose-four__item__top">
                           <div className="why-choose-four__item__icon">
-                            <Image
+                            {/* <Image
                               width={22}
                               height={22}
                               src="/assets/images/shapes/icon-01.png"
                               alt="response"
-                            />
+                            /> */}
+                            <i className="icon-collaboration"></i>
                           </div>
                           <h3 className="why-choose-four__item__title">
-                            24×7 Service  <br /> Availability.
+                            24×7 Service <br /> Availability.
                           </h3>
                         </div>
                         <p className="why-choose-four__item__text text-white">
-                          A unique aspect of the translation and interpreting industry is that needs often sprout up when you least expect them – late on Friday evening, over the weekend, or at the last minute.
+                          A unique aspect of the translation and interpreting
+                          industry is that needs often sprout up when you least
+                          expect them – late on Friday evening, over the
+                          weekend, or at the last minute.
                         </p>
                       </div>
                       <div className="why-choose-four__item">
@@ -495,7 +560,7 @@ export default function Home() {
                             <i className="icon-collaboration"></i>
                           </div>
                           <h3 className="why-choose-four__item__title">
-                            Reasonable, Transparent  <br /> Pricing
+                            Reasonable, Transparent <br /> Pricing
                           </h3>
                         </div>
                         <p className="why-choose-four__item__text text-white">
@@ -509,37 +574,43 @@ export default function Home() {
                       <div className="why-choose-four__item">
                         <div className="why-choose-four__item__top">
                           <div className="why-choose-four__item__icon">
-                            <Image
+                            {/* <Image
                               width={22}
                               height={22}
                               src="/assets/images/shapes/icon-03.png"
                               alt="response"
-                            />
+                            /> */}
+                            <i className="icon-collaboration"></i>
                           </div>
                           <h3 className="why-choose-four__item__title">
-                            Industry  <br /> Expertise.
+                            Industry <br /> Expertise.
                           </h3>
                         </div>
                         <p className="why-choose-four__item__text text-white">
-                          Our team comprises skilled, certified professionals who specialize in providing high-quality translation and interpretation services across various industries.
+                          Our team comprises skilled, certified professionals
+                          who specialize in providing high-quality translation
+                          and interpretation services across various industries.
                         </p>
                       </div>
                       <div className="why-choose-four__item">
                         <div className="why-choose-four__item__top">
                           <div className="why-choose-four__item__icon">
-                            <Image
+                            {/* <Image
                               width={22}
                               height={22}
                               src="/assets/images/shapes/icon-04.png"
                               alt="response"
-                            />
+                            /> */}
+                            <i className="icon-collaboration"></i>
                           </div>
                           <h3 className="why-choose-four__item__title">
                             Lorem, ipsum. <br /> lorem
                           </h3>
                         </div>
                         <p className="why-choose-four__item__text text-white">
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum mollitia molestias laborum, tempore ab voluptate.
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Earum mollitia molestias laborum, tempore ab
+                          voluptate.
                         </p>
                       </div>
                     </div>
@@ -555,7 +626,8 @@ export default function Home() {
                       style={{ width: "100%", height: "80%" }}
                     >
                       <img
-                        src="\assets\distributor-img\what-we-offer-nagpur.jpg"
+                        src="/assets/capital-img/why-choose-us.jpg"
+                        // src="\assets\distributor-img\what-we-offer-nagpur.jpg"
                         alt="why-choose-us"
                         style={{
                           objectPosition: "right center",
@@ -572,18 +644,19 @@ export default function Home() {
           </div>
         </section>
 
+        {/* countries section */}
+        <LanguageSupport />
+
         {/* testimonials */}
         <Testimonials />
 
-        {/* countries section */}
-        <LanguageSupport />
-        
         {/* Form */}
         <section className="contact-one">
           <div
             className="contact-one__bg"
             style={{
-              backgroundImage: "url(assets/images/backgrounds/contact-1-bg.jpg)",
+              backgroundImage:
+                "url(assets/images/backgrounds/contact-1-bg.jpg)",
             }}
           ></div>
           <div className="contact-one__overlay"></div>
@@ -593,19 +666,24 @@ export default function Home() {
                 <div className="col-xl-6">
                   <div className="sec-title text-left">
                     <div className="sec-title__tagline bw-split-in-up-fast d-inline-flex align-items-center gap-2">
-                      Contact With Us
+                      OUR OFFICES
                     </div>
 
-                    <h3 className="sec-title__title bw-split-in-up">
-                      Feel Free to <br />
-                      <span> Write Us Anytime</span>{" "}
+                    <h3 className="sec-title__title bw-split-in-up fs-40">
+                      Get In <span> TOUCH?</span>
                     </h3>
+                    <p className="testimonials-card__desc">
+                      Come and visit our quarters or simply send us an email
+                      anytime you want. We are open to all suggestions from our
+                      clients.
+                    </p>
                   </div>
                   <div className="contact-one__content">
                     <div
                       className="contact-one__content__bg bw-img-anim-left"
                       style={{
-                        backgroundImage: "url( /assets/capital-img/contact-section.png)",
+                        backgroundImage:
+                          "url( /assets/capital-img/contact-section.png)",
                       }}
                     ></div>
                     <ul className="list-unstyled contact-one__info">
@@ -618,9 +696,9 @@ export default function Home() {
                         </div>
                         <div className="contact-one__info__content">
                           <p className="contact-one__info__text">
-                            <a href="tel:+9238008060">+92 3800 8060</a>
-                            <br />
-                            <a href="tel:+2195550114">+21 9555-0114</a>
+                            <a href="tel:+9238008060">+1 (612) 817-7744</a>
+                            {/* <br />
+                            <a href="tel:+2195550114">+21 9555-0114</a> */}
                           </p>
                         </div>
                       </li>
@@ -632,12 +710,14 @@ export default function Home() {
                           </span>
                         </div>
                         <div className="contact-one__info__content">
-                          <p className="contact-one__info__text">
-                            <a href="mailto:mitc@example.com">
-                              mitc@example.com
+                          <p className="contact-one__info__text fs-15">
+                            {/* <a href="mailto:info@capitallinguists.com">
+                              info@capitallinguists.com
                             </a>
-                            <br />
-                            <a href="www.website.com">www.website.com</a>
+                            <br /> */}
+                            <a href="https://capitallinguists.com/">
+                              capitallinguists.com
+                            </a>
                           </p>
                         </div>
                       </li>
@@ -650,8 +730,7 @@ export default function Home() {
                         </div>
                         <div className="contact-one__info__content">
                           <p className="contact-one__info__text">
-                            3891 Ranchview Dr. Richardson, <br /> California
-                            62639
+                            Silver Spring 13, MD, USA
                           </p>
                         </div>
                       </li>

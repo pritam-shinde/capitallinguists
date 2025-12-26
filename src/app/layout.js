@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
             <head>
                 <meta charSet="UTF-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <title>Homestead Experts - Medical Expert Witness Services</title>
+                <title>Capital Linguists: Interpreting And Translation Agency</title>
 
                 {/* favicons */}
                 <link rel="icon" sizes="180x180" href="/assets/images/favicons/favicon_180x180.png" />
@@ -35,7 +35,7 @@ export default function RootLayout({ children }) {
 
                 <meta
                     name="description"
-                    content="Homestead Experts provides trusted medical expert witness services, connecting legal teams with certified specialists across all medical fields."
+                    content="Capital Linguists provide world-class interpreter and translation services in-person and online. Connect with clear communication in any language."
                 />
 
                 {/* vendor CSS */}
