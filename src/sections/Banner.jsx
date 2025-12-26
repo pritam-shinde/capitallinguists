@@ -19,9 +19,9 @@ const Banner = () => {
           <p style={{ marginBottom: "20px" }} className="custom-max-width2">
             We provide services around the world in over 200 languages
           </p>
-          <p style={{ marginBottom: "20px" }} className="custom-max-width2">
+          {/* <p style={{ marginBottom: "20px" }} className="custom-max-width2">
             “When Success Depends on Every Word”
-          </p>
+          </p> */}
         </>
       ),
     },
@@ -84,61 +84,55 @@ const Banner = () => {
                   </div>
                 </div> */}
 
-                <div className="row package-container">
+                <div className="row mt-4">
                   <div
                     className="col-md-6 col-lg-4 wow fadeInUp"
                     data-wow-delay="00ms"
                   >
-                    <div className="package-wrapper">
-                      {/* <div className="package__cate package-card-new">
-                          <span>Basic Plan</span>
-                        </div> */}
-                      <div className="package-card">
-                        <div className="package-card__price package-card__price-new">
-                          {/* $60.00
-                            <div className="package-card__period">
-                              Per month
-                            </div> */}
-                          Live <br /> Interpreters
-                        </div>
-                        <ul className="package-card__list">
-                          <li className="p-2">
-                            Available by phone, video, or in person
-                          </li>
-                        </ul>
-                        <a href="contact.html" className="procounsel-btn">
-                          <i>Instant Quote</i>
-                          <span>Instant Quote</span>
-                        </a>
+                    <div
+                      className="service-one__item service-one__item-new mx-3 d-flex flex-column justify-content-between"
+                      style={{ maxHeight: "570px", height: "100%" }}
+                    >
+                      <div className="service-one__item__top pb-1">
+                        <h4
+                          className="service-one__item__title fw-bold"
+                          style={{ maxWidth: "100%", fontSize: "22px" }}
+                        >
+                          Live Interpreters
+                        </h4>
                       </div>
+                      <p className="service-one__item__text text-black mt-1 mb-0">
+                       Available by phone, video, or in person
+                      </p>
+                      <button className="procounsel-btn mt-4 p-0">
+                        <i>Instant Quote</i>
+                        <span>Instant Quote</span>
+                      </button>
                     </div>
                   </div>
                   <div
                     className="col-md-6 col-lg-4 wow fadeInUp mt-4 mt-md-0"
                     data-wow-delay="00ms"
                   >
-                    <div className="package-wrapper">
-                      {/* <div className="package__cate">
-                          <span>Standard</span>
-                        </div> */}
-                      <div className="package-card">
-                        <div className="package-card__price package-card__price-new">
-                          {/* $60.00
-                            <div className="package-card__period">
-                              Per month
-                            </div> */}
-                          Document <br /> Translation
-                        </div>
-                        <ul className="package-card__list">
-                          <li className="p-1">
-                            Translate documents, books, or websites
-                          </li>
-                        </ul>
-                        <a href="contact.html" className="procounsel-btn">
-                          <i>Instant Quote</i>
-                          <span>Instant Quote</span>
-                        </a>
+                    <div
+                      className="service-one__item service-one__item-new mx-3 d-flex flex-column justify-content-between"
+                      style={{ maxHeight: "570px", height: "100%" }}
+                    >
+                      <div className="service-one__item__top pb-1">
+                        <h4
+                          className="service-one__item__title fw-bold"
+                          style={{ maxWidth: "100%", fontSize: "22px" }}
+                        >
+                          Document Translation
+                        </h4>
                       </div>
+                      <p className="service-one__item__text text-black mt-1 mb-0">
+                        Translate documents, books, or websites
+                      </p>
+                      <button className="procounsel-btn mt-4 p-0">
+                        <i>Instant Quote</i>
+                        <span>Instant Quote</span>
+                      </button>
                     </div>
                   </div>
                 </div>

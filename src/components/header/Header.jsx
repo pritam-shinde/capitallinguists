@@ -60,7 +60,7 @@ const Header = () => {
   return (
     <>
       <header
-        className="main-header sticky-header sticky-header--normal"
+        className="main-header main-header-new sticky-header sticky-header--normal"
         style={{
           position: "fixed",
           top: 0,
@@ -200,8 +200,8 @@ const Header = () => {
                   style={{ backgroundColor: scrolled ? "#000000" : "#ffffff" }}
                 ></span>
               </div>
-              <div className="main-header__btn">
-                {/* <a href='#' className="free-consultation-btn text-uppercase" style={{ whiteSpace: "nowrap" }}>Request an Expert</a> */}
+              {/* <div className="main-header__btn">
+                <a href='#' className="free-consultation-btn text-uppercase" style={{ whiteSpace: "nowrap" }}>Request an Expert</a>
                 <a
                   href="/contact-us/#contact-service"
                   className="procounsel-btn d-flex flex-column flex-sm-row text-center text-sm-start"
@@ -209,6 +209,25 @@ const Header = () => {
                   <i>get a quote now</i>
                   <span className="">get a quote now</span>
                 </a>
+              </div> */}
+               <div className="main-header__info d-none d-lg-flex">
+                <div className="main-header__info__icon">
+                  <i className="icon-mail fs-6"></i>
+                  <span className="main-header__info__icon__zoom">
+                    <i className="icon-mail fs-6"></i>
+                  </span>
+                </div>
+                <div> 
+                  <a
+                    href="mailto:info@capitallinguists.com"
+                    style={{
+                      color: scrolled ? "#000000" : "#ffffff",
+                      whiteSpace: "nowrap",
+                    }}
+                  >
+                    info@capitallinguists.com
+                  </a>
+                </div>
               </div>
               <div className="main-header__info d-none d-lg-flex">
                 <div className="main-header__info__icon">
@@ -217,8 +236,7 @@ const Header = () => {
                     <i className="icon-phone-1"></i>
                   </span>
                 </div>
-                <div>
-                  {/* <span className="main-header__info__text" style={{ color: scrolled ? "#000000" : "#ffffff" }}>Call anytime</span> */}
+                <div> 
                   <a
                     href="tel:+612-817-7744"
                     style={{

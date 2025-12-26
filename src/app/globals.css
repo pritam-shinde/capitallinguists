@@ -298,7 +298,7 @@ a {
 }
 
 .hero-slide button {
-  background-color: #b98946;
+  background-color: var(--procounsel-base, #c7954a);;
   color: #fff;
   border: none;
   padding: 12px 28px;
@@ -309,7 +309,7 @@ a {
 }
 
 .hero-slide button:hover {
-  background-color: #fb3640;
+  background-color: var(--procounsel-base, #c7954a);;
 }
 
 /* Fade-up animation */
@@ -731,9 +731,9 @@ a {
   color: #e1e1e4 !important;
 }
 
-.service-one__item:hover .number-color, .service-one__item:hover .service-one__item__text {
+/* .service-one__item:hover .number-color, .service-one__item:hover .service-one__item__text {
   color: #fff !important;
-}
+} */
 
 .about-text {
   max-height: 120px;
