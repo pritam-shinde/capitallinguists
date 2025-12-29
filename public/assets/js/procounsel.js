@@ -45,8 +45,8 @@
         var percent = el.data("percent");
         $(el).css("width", percent).addClass("counted");
       }, {
-        accY: -50,
-      }
+      accY: -50,
+    }
     );
   }
 
@@ -76,8 +76,8 @@
           });
         }
       }, {
-        accY: 0,
-      }
+      accY: 0,
+    }
     );
   }
 
@@ -264,12 +264,12 @@
     mobileNavContainer.innerHTML = navContent;
   }
 
-  if ($(".sticky-header").length) {
-    $(".sticky-header")
-      .clone()
-      .insertAfter(".sticky-header")
-      .addClass("sticky-header--cloned");
-  }
+  // if ($(".sticky-header").length) {
+  //   $(".sticky-header")
+  //     .clone()
+  //     .insertAfter(".sticky-header")
+  //     .addClass("sticky-header--cloned");
+  // }
 
   if ($(".mobile-nav__container .main-menu__list").length) {
     let dropdownAnchor = $(
@@ -404,8 +404,8 @@
     if ($(this).next().val() > 0) {
       if ($(this).next().val() > 0)
         $(this)
-        .next()
-        .val(+$(this).next().val() - 1);
+          .next()
+          .val(+$(this).next().val() - 1);
     }
   });
 
@@ -595,8 +595,8 @@
         $("html, body")
           .stop()
           .animate({
-              scrollTop: $(target.attr("href")).offset().top - headerH + "px",
-            },
+            scrollTop: $(target.attr("href")).offset().top - headerH + "px",
+          },
             900,
             "easeInOutExpo"
           );

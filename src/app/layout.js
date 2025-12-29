@@ -3,6 +3,7 @@ import { Montserrat, Merriweather } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header/Header";
 import Footer from "@/components/footer/Footer";
+import ScriptsLoader from "@/components/ScriptsLoader";
 
 // Configure fonts
 const montserrat = Montserrat({
@@ -62,10 +63,11 @@ export default function RootLayout({ children }) {
                 <Header />
                 {children}
                 <Footer />
+                <ScriptsLoader />
             </body>
         </html>
     );
-} 
+}
 
 // import { Geist, Geist_Mono } from "next/font/google";
 // import "./globals.css";

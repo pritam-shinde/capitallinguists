@@ -86,8 +86,8 @@ const Header = () => {
                 <Image
                   src={
                     scrolled
-                        ?  "/assets/capital-img/logo2.png" 
-                        : "/assets/capital-img/capital-logo.png" 
+                      ? "/assets/capital-img/logo2.png"
+                      : "/assets/capital-img/capital-logo.png"
                   }
                   alt="Procounsel"
                   width={160}
@@ -210,14 +210,14 @@ const Header = () => {
                   <span className="">get a quote now</span>
                 </a>
               </div> */}
-               <div className="main-header__info d-none d-lg-flex">
+              <div className="main-header__info d-none d-lg-flex">
                 <div className="main-header__info__icon">
                   <i className="icon-mail fs-6"></i>
                   <span className="main-header__info__icon__zoom">
                     <i className="icon-mail fs-6"></i>
                   </span>
                 </div>
-                <div> 
+                <div>
                   <a
                     href="mailto:info@capitallinguists.com"
                     style={{
@@ -236,7 +236,7 @@ const Header = () => {
                     <i className="icon-phone-1"></i>
                   </span>
                 </div>
-                <div> 
+                <div>
                   <a
                     href="tel:+612-817-7744"
                     style={{
@@ -263,8 +263,8 @@ const Header = () => {
             <div className="logo-box">
               <a href="/" aria-label="logo image">
                 <Image
-                  src={"/assets/images/logos/homestead-experts-logo-light.png"}
-                  alt="Homestead Experts"
+                  src={"/assets/capital-img/capital-logo.png"}
+                  alt="Capital Linguists"
                   width={140}
                   height={30}
                   style={{ width: "100%", objectFit: "contain" }}
